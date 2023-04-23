@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Labster';
+  font-size: 26px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.language-filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.repository-item-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+
+  .repository-item-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
